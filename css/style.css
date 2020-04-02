@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+
+body {
+    margin: 0px;
+    background-color: #191a1f;
+}
+
+.navbar {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    top: 0;
+    padding: 0;
+    background-color: #191a1f;
+    color: white;
+    -webkit-box-shadow: 0px -3px 43px -3px rgba(0,0,0,0.85);
+    -moz-box-shadow: 0px -3px 43px -3px rgba(0,0,0,0.85);
+    box-shadow: 0px -3px 43px -3px rgba(0,0,0,0.85);
+    z-index: 100;
+}
+
+#dessert {
+    /*font-family: "GenomeThin";
+    font-weight: normal;
+    font-style: normal;
+    color: white;*/
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+#navbar-logo {
+    height: 70px;
+    width: 65px;
+    position: fixed;
+    top: 15px;
+    left: 47%;
+    z-index: 10;
+    background-image: url("../photos/logow.png");
+    background-size: contain;
+}
+
+.container {
+    display:grid;
+    grid-template-rows: 100vh 100vh 20vh;
+    grid-template-areas: 
+    "hd"
+    "ct"
+    "ft";
+    /*for now*/
+    border: 2px solid yellow;
+}
+
+.header {
+    grid-area:hd;
+    width: 100%;
+    height: 100%;
+    background-image: url("../photos/pizza.jpeg");
+    background-size: cover;
+    opacity: 20%;
+}
+
+.post-container {
+    grid-area: ct;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 50vh 50vh;
+    grid-template-areas:
+    "tl tm tr"
+    "bl bm br";
+    background-color: #191a1f;
+    /*for now*/
+    border: 2px solid red;
+}
+
+.post {
+    border: 2px solid green;
+    opacity: 50%;
+}
+
+.post:hover {
+    opacity:100%;
+}
+
+#post-one {
+    grid-area: tl;
+    background-image: url("../photos/cake.jpeg");
+    background-size: cover;
+}
+
+#post-two {
+    grid-area: tm;
+    background-image: url("../photos/breakfast.jpeg");
+    background-size: cover;
+}
+
+#post-three {
+    grid-area: tr;
+    background-image: url("../photos/cocktail3.jpeg");
+    background-size: cover;
+
+}
+
+#post-four {
+    grid-area: bl;
+    background-image: url("../photos/seasoning.jpeg");
+    background-size: cover;
+}
+
+#post-five {
+    grid-area: bm;
+    background-image: url("../photos/cake.jpeg");
+    background-size: cover;
+}
+
+#post-six {
+    grid-area: br;
+    background-image: url("../photos/kids.jpeg");
+    background-size: cover;
+}
+
+.footer {
+    grid-area: ft;
+    border: 2px solid blue;
+}
+
+
+
