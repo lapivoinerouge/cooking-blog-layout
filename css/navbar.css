@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+.navbar {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    padding: 0;
+    top: 0;
+    background-color: #191a1f;
+    -webkit-box-shadow: 0px -3px 43px -3px rgba(0,0,0,0.85);
+    -moz-box-shadow: 0px -3px 43px -3px rgba(0,0,0,0.85);
+    box-shadow: 0px -3px 43px -3px rgba(0,0,0,0.85);
+    z-index: 2;
+}
+
+
+/* logo */
+#navbar-logo {
+    height: 60px;
+    width: 57px;
+    position: fixed;
+    top: 4.2%;
+    left: 1.5%;
+    z-index: 3;
+    background-image: url(../photos/logow.png);
+    background-size: contain;
+}
+
+#navbar-logo-text {
+    height: 58px;
+    width: 50px;
+    position: fixed;
+    top: 2%;
+    left: 5.8%;
+    z-index: 3;
+    background-image: url(../photos/text-logo.png);
+    background-size: contain;
+}
+
+
+/* content */
+#navbar-titles {
+    position: relative;
+    top: 18px;
+    left: 400px;
+}
+
+.navbar-title {
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    color: #fff;
+    margin: 0 20px;
+}
+
+.navbar-title:hover {
+    opacity: 80%;
+    cursor: pointer;
+}

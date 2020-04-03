@@ -1,0 +1,21 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');*/
+.footer {
+    grid-area: ft;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 45%;
+    /* font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    color: #fff;*/
+}
+
+a {
+    color: #fff;
+    font-size: 30px;
+    margin: 5px;
+}
+
+a:hover {
+    opacity: 80%;
+}

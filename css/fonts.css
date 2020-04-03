@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap');
+
+
+
+/* latest post */
+#latest-post-title {
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 50px;
+    margin: 20px;
+}
+
+#latest-post-caption {
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 25px;
+    margin: 20px 20px 60px 20px;
+}
+
+#latest-post-read-more {
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 25px;
+    margin: 40px 10px 0 350px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* regular posts */
+.post-title {
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+.post-caption {
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 20px;
+    margin: 0 10px 10px 10px;
+}
+
+.post-read-more {
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+}
