@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap'); */
 
 #navbar {
     position: fixed;
@@ -58,8 +58,8 @@
 }
 
 .nv-title {
-    font-family: 'Amatic SC', cursive;
-    font-size: 35px;
+    /*font-family: 'Amatic SC', cursive;*/
+    font-size: 20px;
     color: #fff;
     margin: 0 20px;
 }
