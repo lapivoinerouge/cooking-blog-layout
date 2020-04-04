@@ -1,58 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 
-.navbar {
+#navbar {
     position: fixed;
     height: 100px;
     width: 100%;
     padding: 0;
-    top: 0;
     background-color: #191a1f;
     -webkit-box-shadow: 0px -3px 43px -3px rgba(0,0,0,0.85);
     -moz-box-shadow: 0px -3px 43px -3px rgba(0,0,0,0.85);
     box-shadow: 0px -3px 43px -3px rgba(0,0,0,0.85);
     z-index: 2;
+    display: grid;
+    grid-template-areas:
+    "lg tt";
+    grid-gap: 10px;
 }
 
-
 /* logo */
-#navbar-logo {
-    height: 60px;
-    width: 57px;
+#nv-logo {
+    grid-area: lg;
+    cursor: pointer;
+}
+
+#nv-logo:hover {
+    opacity: 0.8;
+}
+
+#nv-logo-img {
+    min-height: 60px;
+    min-width: 57px;
     position: fixed;
-    top: 4.2%;
-    left: 1.5%;
-    z-index: 3;
+    top: 25px;
+    left: 20px;
     background-image: url(../photos/logow.png);
     background-size: contain;
 }
 
-#navbar-logo-text {
-    height: 58px;
+#nv-logo-text {
+    min-height: 58px;
     width: 50px;
-    position: fixed;
-    top: 2%;
-    left: 5.8%;
+    position: absolute;
+    top: 10px;
+    left: 75px;
     z-index: 3;
     background-image: url(../photos/text-logo.png);
     background-size: contain;
 }
 
 
-/* content */
-#navbar-titles {
-    position: relative;
+/* panel */
+#nv-panel {
+    grid-area: tt;
+    justify-self: right;
+    display: flex;
+    align-items: center;
     top: 18px;
-    left: 400px;
 }
 
-.navbar-title {
+.nv-title {
     font-family: 'Amatic SC', cursive;
-    font-size: 50px;
+    font-size: 35px;
     color: #fff;
     margin: 0 20px;
 }
 
-.navbar-title:hover {
-    opacity: 80%;
+.nv-title:hover {
+    opacity: 0.8;
     cursor: pointer;
 }

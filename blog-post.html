@@ -4,30 +4,33 @@
     <meta charset="utf-8" />
     <title>Do Me a Flavor - Digital Cooking Book for the Busiest</title>
     <script src="https://kit.fontawesome.com/5f13b6ccc2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/blog-post.css">
 </head>
 
 <body>
-    <div class="navbar">      
-        <span id="navbar-logo"></span>
-        <span id="navbar-logo-text"></span>
-        <div id="navbar-titles">
-            <span class="navbar-title">MAIN DISH</span>
-            <span class="navbar-title">LUNCHBOX</span>
-            <span class="navbar-title">COCKTAILS</span>
-            <span class="navbar-title">DESSERT</span>
-            <span class="navbar-title">FOR KIDS</span>
+    <nav id="navbar">
+        <a id="nv-logo" href="index.html">
+            <span id="nv-logo-img"></span>
+            <span id="nv-logo-text"></span>
+        </a>
+        <div id="nv-panel">
+            <span class="nv-title">MAIN DISH</span>
+            <span class="nv-title">LUNCHBOX</span>
+            <span class="nv-title">COCKTAILS</span>
+            <span class="nv-title">DESSERT</span>
+            <span class="nv-title">FOR KIDS</span>
         </div>
-    </div>
+    </nav>
 
     <div id="post-container">
         <header id="post-header">HEADER</header>
         
-        <section id="article-container">
+        <section id="content-container">
             <div id="title-box">
                 <h1 class="post-title">Perfect Pizza Dough</h1>
             </div>
-            <article class="article">
+
+            <article id="article">
                 <h2>50 Shades of Pizza</h2>
                 <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo 
                     ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis 
@@ -82,14 +85,18 @@
                 </p>
                 <img id="post-photo" src="photos/dough.jpg" alt="dough">
                 <p class="image-caption">You can store your dough in fridge for up to 2 weeks. Just make sure it won't dry.</p>
+                <p class="end-of-text">* * *</p>
             </article>
+            
             <aside id="aside">
                 <section id="author-info">
                     <div id="author-photo"></div>
                     <div id="author-name">Sansa Stark</div>
                     <div id="author-bio">Businesswoman, mother of three (and two dogs), author of "Medieval Recipes on Modern Table".</div>
                 </section>
-                <section id="read-more">Read more:
+                <p class="end-of-text">* * *</p>
+                <section id="read-more">
+                    <p id="read-more-header">Read more:</p>
                     <div class="read-more-box">
                         <p class="read-more-title">Make them eat</p>
                         <div class="read-more-photo" id="rm-one"></div>

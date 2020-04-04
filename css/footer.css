@@ -1,7 +1,6 @@
 .footer {
     grid-area: ft;
     align-items: center;
-    border: turquoise 1px solid;
 }
 
 .social-media-container {

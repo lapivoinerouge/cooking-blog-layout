@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100&display=swap');
 
+
 /* latest post */
 #latest-post-title {
     font-family: 'Dawning of a New Day', cursive;
@@ -44,11 +45,12 @@
     font-family: 'Dawning of a New Day', cursive;
     font-size: 16px;
     text-decoration: none;
-    color: #fff;
     position: absolute;
-    top: 120px;
-    left: 120px;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
 }
+
 
 /* post */
 h1,
@@ -86,6 +88,14 @@ blockquote {
     margin-left: 20px;
 }
 
+.end-of-text {
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 50px;
+    color: black;
+    margin-left: 40%;
+}
+
+
 /* aside */
 #author-name {
     font-family: 'Dawning of a New Day', cursive;
@@ -99,14 +109,14 @@ blockquote {
     color: #000;
 }
 
-#read-more {
+#read-more-header {
     font-family: 'Dawning of a New Day', cursive;
-    font-size: 3em;
+    font-size: 50px;
     color: black;
 }
 
 .read-more-title {
     font-family: 'Dawning of a New Day', cursive;
-    font-size: 0.5em;
+    font-size: 35px;
     color: black;
 }

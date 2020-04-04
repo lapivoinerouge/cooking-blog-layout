@@ -8,30 +8,35 @@
 </head>
 
 <body>
-    <div class="navbar">      
-        <span id="navbar-logo"></span>
-        <span id="navbar-logo-text"></span>
-        <div id="navbar-titles">
-            <span class="navbar-title">MAIN DISH</span>
-            <span class="navbar-title">LUNCHBOX</span>
-            <span class="navbar-title">COCKTAILS</span>
-            <span class="navbar-title">DESSERT</span>
-            <span class="navbar-title">FOR KIDS</span>
+    <nav id="navbar">
+        <a id="nv-logo" href="index.html">
+            <span id="nv-logo-img"></span>
+            <span id="nv-logo-text"></span>
+        </a>
+        <div id="nv-panel">
+            <span class="nv-title">MAIN DISH</span>
+            <span class="nv-title">LUNCHBOX</span>
+            <span class="nv-title">COCKTAILS</span>
+            <span class="nv-title">DESSERT</span>
+            <span class="nv-title">FOR KIDS</span>
         </div>
-    </div>
-    <div class="container">
-        <div class="header">
+    </nav>
+
+    <section class="container">
+
+        <header id="header">
             <div id="latest-post-box">
                 <h1 id="latest-post-title"><strong>Perfect Pizza Dough</strong></h1>
                 <p id="latest-post-caption">...your mum will beg you for this recipe!</p>
                 <a id="latest-post-read-more" href="blog-post.html">read more</a>
             </div>
-        </div>
-        <div class="post-container">
+        </header>
+
+        <section id="post-container">
             <div id="post-one" class="post">
                 <div class="post-box">
                     <h2 class="older-post-title"><strong>Busy Mama Cake</strong></h2>
-                    <p class="older-post-caption">All you need is 5 minutes and some leftovers.</p>
+                    <p class="older-post-caption">All you need is leftovers.</p>
                     <a class="older-post-read-more" href="http://www.google.com">read more</a>
                 </div>
             </div>
@@ -51,7 +56,7 @@
             </div>
             <div id="post-four" class="post">
                 <div class="post-box">
-                    <h2 class="older-post-title"><strong>Boost Your Flavor</strong></h2>
+                    <h2 class="older-post-title"><strong>Spice it up!</strong></h2>
                     <p class="older-post-caption">How to properly use spices?</p>
                     <a class="older-post-read-more" href="http://www.google.com">read more</a>
                 </div>
@@ -70,7 +75,8 @@
                     <a class="older-post-read-more" href="http://www.google.com">read more</a>
                 </div>
             </div>
-        </div>
+        </section>
+        
         <footer class = "footer">
             <div class="social-media-container">
                 <a href="http://facebook.com"><i id="fb-icon" class="fab fa-facebook-square"></i></a>
@@ -78,6 +84,6 @@
                 <a href="http://linkedin.com"><i id="li-icon" class="fab fa-linkedin"></i></a>
             </div>
         </footer>
-    </div>
+    </section>
 </body>
 </html>
