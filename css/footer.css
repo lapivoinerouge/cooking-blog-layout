@@ -1,13 +1,14 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');*/
 .footer {
     grid-area: ft;
+    align-items: center;
+    border: turquoise 1px solid;
+}
+
+.social-media-container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 45%;
-    /* font-family: 'Amatic SC', cursive;
-    font-size: 30px;
-    color: #fff;*/
+    margin: 2% 45%;
 }
 
 a {

@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100&display=swap');
 
 /* latest post */
 #latest-post-title {
     font-family: 'Dawning of a New Day', cursive;
     font-size: 50px;
     margin: 20px;
+    color: #fff;
 }
 
 #latest-post-caption {
     font-family: 'Dawning of a New Day', cursive;
     font-size: 25px;
     margin: 20px 20px 60px 20px;
+    color: #fff;
 }
 
 #latest-post-read-more {
@@ -24,20 +25,22 @@
 }
 
 
-/* regular posts */
-.post-title {
+/* regular posts - main page*/
+.older-post-title {
     font-family: 'Dawning of a New Day', cursive;
     font-size: 25px;
     margin: 0 10px;
+    color: #fff;
 }
 
-.post-caption {
+.older-post-caption {
     font-family: 'Dawning of a New Day', cursive;
     font-size: 20px;
     margin: 0 10px 10px 10px;
+    color: #fff;
 }
 
-.post-read-more {
+.older-post-read-more {
     font-family: 'Dawning of a New Day', cursive;
     font-size: 16px;
     text-decoration: none;
@@ -45,4 +48,65 @@
     position: absolute;
     top: 120px;
     left: 120px;
+}
+
+/* post */
+h1,
+h2,
+h3,
+blockquote {
+    font-family: 'Dawning of a New Day', cursive;
+    color: #000;
+}
+
+p,
+li {
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #000;
+}
+
+.post-title {
+    font-size: 50px;
+    margin: 30px;
+}
+
+blockquote {
+    font-size: 1.5em;
+}
+
+.link {
+    color: black;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 1em;
+}
+
+.image-caption {
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 1em;
+    margin-left: 20px;
+}
+
+/* aside */
+#author-name {
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 50px;
+    color: #000;
+}
+
+#author-bio {
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 25px;
+    color: #000;
+}
+
+#read-more {
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 3em;
+    color: black;
+}
+
+.read-more-title {
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 0.5em;
+    color: black;
 }

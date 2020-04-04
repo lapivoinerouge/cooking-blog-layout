@@ -1,0 +1,113 @@
+#post-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 100vh auto 20vh;
+    grid-template-areas: 
+    "hd"
+    "ct"
+    "ft";
+    border: green 1px solid;
+}
+
+#post-header {
+    grid-area: hd;
+    width: 100%;
+    height: 100%;
+    background-image: url(../photos/pizza.jpeg);
+    background-size: cover;
+    position: absolute;
+    opacity: 80%;
+    border: yellow 1px solid;
+}
+
+#article-container {
+    grid-area: ct;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #fff;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 30% 30% 35%;
+    grid-template-rows: 100px auto;
+    grid-template-areas:
+    "tt tt tt"
+    "ar ar as";
+    /* to delete */
+    border: red solid 1px;
+    color: black;
+}
+
+#title-box {
+    grid-area: tt;
+    width: 84%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    border: violet 1px solid;
+}
+
+.article {
+    grid-area: ar;
+    border: blue 1px solid;
+    padding: 30px;
+}
+
+#post-photo {
+    max-width: 100%;
+}
+
+#aside {
+    grid-area: as;
+    border: solid grey 1px;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 100%;
+    grid-template-rows: 450px auto;
+    grid-template-areas:
+    "au"
+    "rm";
+}
+
+#author-info {
+    grid-area: au;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#author-photo {
+    background-image: url(../photos/author.png);
+    background-size: contain;
+    border: brown 1px solid;
+    height: 250px;
+    width: 245px;
+}
+
+.read-more-box {
+    border: solid #000 1px;
+    margin: 30px 10px;
+}
+
+.read-more-photo {
+    margin: 20px;
+    max-width: auto;
+    height: 200px;
+}
+
+#rm-one {
+    background-image: url(../photos/kids.jpeg);
+    background-size: cover;
+}
+
+#rm-two {
+    background-image: url(../photos/cocktail3.jpeg);
+    background-size: cover;
+    background-position-y: -90px;
+}
+
+#rm-three {
+    background-image: url(../photos/breakfast.jpeg);
+    background-size: cover;
+    background-position-y: -90px;
+}
