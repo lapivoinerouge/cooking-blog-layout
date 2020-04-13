@@ -143,7 +143,7 @@ body {
 @media (min-width: 600px) and (max-width: 900px) {
     /* navbar */
     .nv-title {
-        font-size: 15px;
+        font-size: 25px;
         margin: 0 10px;
     }
 
@@ -180,7 +180,7 @@ body {
 @media (max-width: 600px) {
     /* navbar */
     .nv-title {
-        font-size: 13px;
+        font-size: 18px;
         margin: 0 3px;
     }
 
@@ -259,14 +259,12 @@ body {
         flex-direction: column;
         justify-items: stretch;
         align-items: center;
-        border: tomato 1px solid;
     }
 
     .post {
         width: 80%;
         height: 500px;
         margin: 20px;
-        border: yellow solid 1px;
         opacity: 100%;
         background-position: center;
     }
